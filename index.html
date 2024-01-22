@@ -27,7 +27,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <a type="button" class="btn btn-success me-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Create a new post
-            </a>            
+            </a>
             <li class="nav-item dropdown">
               <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -44,7 +44,6 @@
               </ul>
             </li>
             <li>
-
             </li>
           </ul>
         </div>
@@ -52,47 +51,170 @@
     </div>
   </nav>
   <div class="input-group mb-3 mt-2 d-flex justify-content-center">
-    <label class="input-group-text" for="inputGroupFile02">
-      <q class="fa-solid fa-camera"></i>
-    </label>
-    <label class="input-group-text" for="inputGroupFile02">
-      <i class="fa-solid fa-location-dot"></i>
-    </label>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+        <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+          type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i
+            class="fa-solid fa-square"></i></button>
+      </div>
+    </nav>
   </div>
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post:</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+      <div class="row d-flex justify-content-eveenly">
+        <div class="col d-block m-2">
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
         </div>
-        <div class="modal-body">
-          <p><strong>Caption:</strong></p>
-          <div class="form-outline">
-            <textarea class="form-control w-100" placeholder="Add a caption of your post here..." id="textAreaExample1" rows="4"></textarea>
-            <label class="form-label" for="textAreaExample"></label>
-          </div>
-          
-          <div class="input-group mb-3 mt-2">
-            <label class="input-group-text" for="inputGroupFile02">
-              <i class="fa-solid fa-camera"></i>
-            </label>
-            <label class="input-group-text" for="inputGroupFile02">
-              <i class="fa-solid fa-location-dot"></i>
-            </label>
-          </div>
-          
+        <div class="col d-block m-2">
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Publish</button>
+        <div class="col d-block">
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
+          <figure class="figure">
+            <img class="w-75 h-100"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </figure>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+      tabindex="0">
+      <div class="d-block justify-content-center">
+        <div class="container m-auto rounded border w-50 mt-3">
+          <div class="container d-flex justify-content-between">
+            <h5 class="d-flex justify-content-start">The boy from my trip to Siberia</h2>
+              <h6 class="d-flex justify-content-end text-secondary"> 12/14</h4>
+          </div>
+          <div class="float-left">
+            <img class="float-left img-fluid"
+              src="https://ichef.bbci.co.uk/news/640/cpsprodpb/15665/production/_107435678_perro1.jpg">
+          </div>
+          <div class="container">
+            <strong>204 Likes</strong>
+            <p>This is my first photo of the feed. this is a multi line comment for testing pruposes. I am learning to
+              code with <strong>#BreatheCode</strong></p>
+          </div>
+        </div>
+        <div class="d-block justify-content-center">
+          <div class="container m-auto rounded border w-50 mt-3">
+            <div class="container d-flex justify-content-between">
+              <h5 class="d-flex justify-content-start">Some cute thing</h2>
+                <h6 class="d-flex justify-content-end text-secondary">12/17</h4>
+            </div>
+            <div class="float-left">
+              <img class="float-left img-fluid"
+                src="https://www.nationalgeographic.com.es/medio/2023/08/25/perro_adf93861_1412331876_230825124420_800x800.jpg">
+            </div>
+            <div class="container">
+              <strong>430 Likes</strong>
+              <p>The internet approves this cute dog... <strong>#BreatheCode</strong></p>
+            </div>
+          </div>
+          <div class="d-block justify-content-center">
+            <div class="container m-auto rounded border w-50 mt-3">
+              <div class="container d-flex justify-content-between">
+                <h5 class="d-flex justify-content-start">My cute golden</h2>
+                  <h6 class="d-flex justify-content-end text-secondary">12/21</h4>
+              </div>
+              <div class="float-left">
+                <img class="float-left img-fluid"
+                  src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg">
+              </div>
+              <div class="container">
+                <strong>590 Likes</strong>
+                <p>Is it my baby the cutest thing u have ever seen??<strong>#BreatheCode</strong></p>
+              </div>
+            </div>
+            <div class="d-block justify-content-center">
+              <div class="container m-auto rounded border w-50 mt-3 mb-5">
+                <div class="container d-flex justify-content-between">
+                  <h5 class="d-flex justify-content-start">The boy from my trip to Siberia</h2>
+                    <h6 class="d-flex justify-content-end text-secondary"> 12/24</h4>
+                </div>
+                <div class="float-left">
+                  <img class="float-left img-fluid"
+                    src="https://images.hola.com/imagenes/mascotas/20201005176621/perro-husky-raza-perro-lobo/0-874-229/husky-t.jpg">
+                </div>
+                <div class="container">
+                  <strong>975 Likes</strong>
+                  <p>Could you imagin that, this little puppy was training to be the best friendo to the Siberian man,
+                    just
+                    Imaging the man going a round with other ten huskys, and this little puppy following him. It was so
+                    cute. <strong>#BreatheCode</strong></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Caption:</strong></p>
+            <div class="form-outline">
+              <textarea class="form-control w-100" placeholder="Add a caption of your post here..."
+                id="textAreaExample1" rows="4"></textarea>
+              <label class="form-label" for="textAreaExample"></label>
+            </div>
+
+            <div class="input-group mb-3 mt-2">
+              <label class="input-group-text" for="inputGroupFile02">
+                <i class="fa-solid fa-camera"></i>
+              </label>
+              <label class="input-group-text" for="inputGroupFile02">
+                <i class="fa-solid fa-location-dot"></i>
+              </label>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
